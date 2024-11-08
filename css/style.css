@@ -26,7 +26,8 @@
   font-weight: 500;
 }
 .wrapper {
-  padding: 0 240px;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 abbr {
@@ -407,9 +408,9 @@ abbr {
   font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1900px) {
   .wrapper {
-    padding: 0 45px;
+    width: 678px;
   }
   .title {
     font-size: 20px;
@@ -634,9 +635,9 @@ abbr {
     font-size: 14px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .wrapper {
-    padding: 0 15px;
+    width: 345px;
   }
   .gif {
     width: 100%;
